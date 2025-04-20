@@ -1,0 +1,14 @@
+.loading-background {
+    -fx-background-color: linear-gradient(to bottom, #0f2027, #203a43, #2c5364); /* Dark gradient background */
+}
+
+.loading-text {
+    -fx-text-fill: #EAEAEA;  /* Light text for visibility */
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.progress-bar {
+    -fx-accent: #4CAF50;  /* Green progress bar */
+}
+

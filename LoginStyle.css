@@ -1,0 +1,86 @@
+/* Root styling */
+.root {
+    -fx-background-color: linear-gradient(to right, #2e2e2e, #1a1a1a); /* Darker background */
+    -fx-padding: 20px;
+}
+
+/* Welcome Section */
+.welcome-box {
+    -fx-background-color: linear-gradient(to bottom, #3a3a3a, #1e1e1e); /* Dark gray gradient */
+    -fx-padding: 40px;
+    -fx-pref-width: 30%;
+    -fx-alignment: center;
+}
+
+.welcome-text {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-fill: #ffffff;
+}
+
+.desc-text {
+    -fx-font-size: 30px;
+    -fx-fill: rgba(211, 211, 211, 1);
+}
+
+/* Login Section */
+.login-box {
+    -fx-background-color: #ffffff;
+    -fx-padding: 40px;
+    -fx-pref-width: 70%;
+    -fx-alignment: center;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 2);
+}
+
+/* Input Fields */
+.input-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 10px;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 100%;
+    -fx-padding: 5px 15px;
+    -fx-font-size: 14px;
+}
+
+/* Buttons - Dark Theme */
+.login-button, .signup-button, .back-button {
+    -fx-background-color: linear-gradient(to right, #232526, #414345); /* Dark shade */
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20px;
+    -fx-padding: 10px 20px;
+    -fx-pref-width: 100%;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 2);
+}
+
+.login-button:hover, .signup-button:hover, .back-button:hover {
+    -fx-background-color: linear-gradient(to right, #0f0f0f, #2c2c2c); /* Slightly darker on hover */
+}
+
+/* Error Label */
+.label-error {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* Hyperlink */
+.hyperlink {
+    -fx-text-fill: #414345;
+    -fx-font-size: 14px;
+    -fx-underline: true;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #232526;
+}
+
+/* Adjustments for Spacing */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}

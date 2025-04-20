@@ -1,0 +1,168 @@
+/* Navigation Box */
+#navigationBox {
+    -fx-background-color: #1E1E1E;
+}
+
+/* ScrollPane */
+#scrollPane {
+    -fx-background: #1E1E1E;
+}
+
+/* Content Area */
+#contentArea {
+    -fx-background-color: #1E1E1E; /* Content area remains unchanged */
+    -fx-font-size: 24px;
+    -fx-text-fill: #EAEAEA;
+}
+
+/* Sidebar Tabs */
+.tab-pane {
+    -fx-background-color: #1E1E1E;
+    -fx-border-color: #1ABC9C;
+    -fx-border-width: 2;
+    -fx-padding: 25;
+    -fx-alignment: center;
+    -fx-cursor: hand;
+}
+
+/* Hover Effect */
+.tab-pane:hover {
+    -fx-background-color: #1E1E1E;
+    -fx-border-color: #16A085;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 2);
+}
+
+/* Service Panels */
+.service-panel {
+    -fx-background-color: #2C2C2C;
+    -fx-border-color: #444;
+    -fx-border-radius: 8;
+    -fx-padding: 20;
+    -fx-spacing: 15;
+    -fx-min-height: 120px;
+}
+
+/* Service Titles */
+.service-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #EAEAEA;
+}
+
+/* Service Description */
+.service-description {
+    -fx-font-size: 16px;
+    -fx-text-fill: #B0B0B0;
+}
+
+/* Book Now Button */
+.book-now-btn {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-color: #1ABC9C;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 5;
+    -fx-padding: 10 20;
+}
+
+.book-now-btn:hover {
+    -fx-background-color: #16A085;
+}
+
+/* Sub-Service Panel */
+.sub-service-panel {
+    -fx-background-color: #292929;
+    -fx-border-color: #555;
+    -fx-border-radius: 8;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+/* Checkbox Styling */
+.check-box {
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+/* Checkbox Custom Indicator */
+.check-box .box {
+    -fx-background-color: transparent;
+    -fx-border-color: #1ABC9C;
+    -fx-border-width: 2px;
+    -fx-border-radius: 4px;
+    -fx-padding: 5;
+    -fx-pref-width: 20px;
+    -fx-pref-height: 20px;
+}
+
+/* Checkbox Selected */
+.check-box:selected .box {
+    -fx-background-color: #1ABC9C;
+    -fx-border-color: #16A085;
+}
+
+/* Confirm Selection Button */
+.confirm-btn {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-color: #1ABC9C;
+    -fx-text-fill: white;
+    -fx-border-radius: 6;
+    -fx-padding: 12 25;
+    -fx-min-width: 200px;
+    -fx-alignment: center;
+}
+
+/* Hover Effect for Confirm Button */
+.confirm-btn:hover {
+    -fx-background-color: #16A085;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 2);
+}
+
+/* ----------- NEW CART STYLING ----------- */
+
+/* Cart Panel */
+/* Cart Panel */
+.cart-item-panel {
+    -fx-background-color: #2C2C2C;
+    -fx-border-color: #444;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+    -fx-spacing: 8;
+    -fx-min-height: 60px;
+}
+/* Cart Item Text */
+.cart-item-text {
+    -fx-font-size: 13px; /* Reduced font size */
+    -fx-text-fill: #EAEAEA;
+}
+
+/* Cart Item Price */
+.cart-item-price {
+    -fx-font-size: 14px; /* Smaller font for price */
+    -fx-text-fill: #FFD700;
+    -fx-font-weight: bold;
+}
+
+/* Remove Button */
+.remove-btn {
+    -fx-font-size: 12px;
+    -fx-background-color: #E74C3C;
+    -fx-text-fill: white;
+    -fx-border-radius: 3;
+    -fx-padding: 5 10;
+}
+
+.remove-btn:hover {
+    -fx-background-color: #C0392B;
+}
+
+/* Total Price Label */
+.total-price {
+    -fx-font-size: 16px; /* Slightly smaller than before */
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFD700;
+    -fx-padding: 10;
+}
+
