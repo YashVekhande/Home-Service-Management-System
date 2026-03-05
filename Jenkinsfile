@@ -10,7 +10,7 @@ pipeline {
         stage('Run Container') {
             steps {
                 // Maps container port 80 to host port 8080
-                bat 'docker run -d -p 8080:80 myapp'
+                bat 'docker run -d -p 8081:80 myapp'
             }
         }
     }
